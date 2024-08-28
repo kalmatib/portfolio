@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="navbar-left">
+                    <img src="./assets/img/logo.jpeg" alt="">
+                    <ul class="navbar-list">
+                        <li> <a class="list-item" href="#home">Home</a></li>
+                        <li> <a class="list-item" href="#about">About</a></li>
+                        <li> <a class="list-item" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="navbar-right">
+                    <button class="navbar-btn"> <a class="list-item" href="#contact-us">Contact</a></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Section -->
+    <div class="section">
+        <div class="container">
+            <div class="hero-section" id="home">
+                <div class="hero-section-left">
+                    <h1>Hello I am <span>OWAIS BALOCH</span>. I am a web development based in <span>PAKISTAN</span></h1>
+                </div>
+                <div class="hero-section-right">
+                    <img src="./assets/img/hero-1.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <!-- About -->
+
+        <div class="about-section">
+            <div class="container">
+                <div class="about-section-left">
+                    <h1 id="about">About</h1>
+                    <div class="about">
+                        <img src="./assets/img/About.jpeg" alt="">
+                    </div>
+                </div>
+                <div class="about-section-right">
+                    <p>"As a web development student with six months of training, I have successfully completed two
+                        projects, applying my skills to build functional and responsive web applications, and I'm
+                        excited to continue learning and creating!"</p>
+                </div>
+            </div>
+        </div>
+        <div class="contact">
+            <div class="container">
+                <div class="contact-left">
+                    <h1 id="contact">Contact</h1>
+                    <form action="https://api.web3forms.com/submit" method="POST" id="form">
+
+                        <input type="hidden" name="access_key" value="2456e75e-b4ec-434b-9911-076ee746b155">
+
+                        <input type="text" name="name" placeholder="Name" required>
+                        <input type="email" name="email" placeholder="Email" required>
+                        <textarea name="message" placeholder="Write your message" required></textarea>
+                        <button type="submit">Submit Form</button>
+                        <div id="result"></div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-section">
+                        <h4 id="contact-us">Contact Us</h4>
+                        <p>Email: info@example.com</p>
+                        <p>Phone: (123) 456-7890</p>
+                    </div>
+                    <div class="footer-bottom">
+                        <p>&copy; 2024 Your Company. All rights reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="./assets/js/index.js"></script>
+</body>
+
+</html>
